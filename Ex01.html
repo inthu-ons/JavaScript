@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>FindPerimeter</title>
+        <meta charset="utf-8">
+        <style>
+            label{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>FindPerimeter </h1>
+        <h2 id="area"></h2>
+        <h2 id="perimeter"></h2>
+        <label for="len">Length:
+            <input type="text" id="len">
+        </label>
+        <label for="wid">Width:
+            <input type="text" id="wid">
+        </label>
+        <button id="calcBtn">Calculate</button>
+        
+        <script>
+            //get inputs and button element from document
+            
+            var lenEl=document.querySelector("#len");
+            var widEl=document.querySelector("#wid");
+            
+            var calcBtn=document.querySelector("#calcBtn");
+            
+            
+            var perimeterEl=document.querySelector("#perimeter");
+            
+            //bind a function tothe onClick event the AddBtn
+            calcBtn.onclick=function(){
+                
+                //area formule length*width
+                
+                
+                //perimeter formule 2*(length+width)
+                perimeter=2*(Number(lenEl.value)+Number(widEl.value))
+ 
+                
+                //write the results into #area #perimeter document 
+                
+                perimeterEl.innerHTML="Perimeter of rectange:"+perimeter;
+            }
+            
+            
+        </script>
+    </body>
+</html>
