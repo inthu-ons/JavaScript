@@ -1,5 +1,6 @@
 function createQuote(quote, callback){
     let myQuote = "Like I always say, " + quote;
+    console.log(myQuote);
     callback(myQuote) //2
 }
 

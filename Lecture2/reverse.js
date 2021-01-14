@@ -1,4 +1,4 @@
-function reverseString(value){
+clearfunction reverseString(value){
     let reversedValue ="";
 
     value.split('').forEach((char)=>{

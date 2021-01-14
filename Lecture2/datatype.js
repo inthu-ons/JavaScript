@@ -2,8 +2,8 @@ const people = ["Aaron","Mel","John"];
 const one = 1;
 const str = "Hello World";
 const employee ={
-    firstName:"Kittisak",
-    lastName:"Panluea"
+    firstName:"Inthu-on",
+    lastName:"Sonthisuwan"
 };
 
 function sayHello(person){
